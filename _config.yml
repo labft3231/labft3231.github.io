@@ -30,7 +30,6 @@ github_username:  labft3231
 
 # Build settings
 #theme: jekyll-theme-clean-blog
-#theme: Minima
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
