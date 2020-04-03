@@ -1,13 +1,9 @@
 ---
 layout: post
 title:  "UiPath Webhook 삽질기"
-date:   2020-04-02 18:13:11 +0900
-categories: RPA
+date:   2020-04-03 18:13:11 +0900
+categories: jekyll update
 ---
-
-
-
-
 
 ### UiPath Webhook 삽질기.
 
