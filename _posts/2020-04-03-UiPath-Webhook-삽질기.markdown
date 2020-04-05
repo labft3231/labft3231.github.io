@@ -3,7 +3,7 @@ layout: post
 title:  "UiPath Webhook 삽질기"
 date:   2020-04-03 18:13:11 +0900
 categories: rpa update
-background: 'public/image/title/rpa_backgroud.jpg'
+background: 'public/image/title/rpa_background.jpg'
 ---
 
 ### UiPath Webhook 삽질기.
