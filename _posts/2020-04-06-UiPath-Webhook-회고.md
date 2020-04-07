@@ -15,10 +15,11 @@ webhook을 하다 막힌 부분이 있어 도움을 청했고, 그 결과 해답
 
 일단 내가 접근하는 방식이 cloud 방식인지 On-Premise 방식인지 구분을 할줄 알아야했다.
   
-
+  
 | On-Premise                           | Cloud                                                |
 | ------------------------------------ | ---------------------------------------------------- |
 | Orchestrator를 다운 받아 설치한 환경 | UiPath에서 제공되는 웹 환경<br /> (cloud.uipath.com) |
+  
 
 예상했던 것은 On-premise만 가능한줄 알았는데 Cloud도 가능하다는 이야기 였고, 
 
@@ -35,6 +36,7 @@ URL을 통해서 또한 인자와 리턴값 모두 달랐다.
 | Method | POST                                                         | POST                                                         |
 | Header | Content-Type:application/json                                | Content-Type:application/json<br />X-UIPATH-TenantName:{{tenantName}} |
 | Return | <code>{"usernameOrEmailAddress": "{{usernameOrEmailAddress}}","tenancyName": "{{tenancyName}}","password": "{{password}}"}</code> | <code>{     "grant_type": "refresh_token",     "client_id": "{{clientId}}",     "refresh_token": "{{userKey}}" }</code> |
+  
 
  위와 같이 값을 바꾸어 제대로 값을 받을 수 있었다.
 
