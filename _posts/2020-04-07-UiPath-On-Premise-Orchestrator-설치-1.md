@@ -12,18 +12,23 @@ background: 'public/image/title/rpa_background.jpg'
 
 - 앞서 webhook 과정에서 스쳐지나갔던 On-premise Orchestrator를 설치 과정에 대해 정리해보았다.
 
+<br>
 
 ## 일단 On-premise Orchestrator의 특징에 대해서 알아봤다.
 
-- 업데이트 마다 바뀔 수 있기 때문에 설명 대신에 아래의 링크를 첨부했다.
+- 업데이트 마다 바뀔 수 있기 때문에 설명 대신에 아래의 링크를 첨부했다. 
 
- [on-premise 와 cloud 차이점](https://docs.uipath.com/cloudplatform/docs/on-premises-vs-cloud-platform-orchestrator-features)
+- [on-premise 와 cloud 차이점](https://docs.uipath.com/cloudplatform/docs/on-premises-vs-cloud-platform-orchestrator-features)
 
 - 큰 특징으로 봤을때 insights 사용이 가능하고 Elasticsearch도 사용가능하고 DB에 로그등을 저장할 수 있고 등의 특징을 가진거 같다.
+
+<br>
 
 ------------------------------------------
 
 ### 그럼 설치를 해보자.
+
+<br>
 
 #### 다운로드
 
@@ -31,13 +36,14 @@ background: 'public/image/title/rpa_background.jpg'
 
 - 혹시 다운로드가 되지 않을경우나 exe 파일이 필요한 경우 UiPath 공식 홈페이지에서 Trial 버전(위에 것도 Trial 임)을 다운로드 받을 수 있다 [추천](https://www.uipath.com/start-trial)
 
+<br>
 
 #### Orchestrator install을 시작하면 처음 IIS 환경을 설정해야한다. 
 
 - 처음 설치 시 IIS 설정을 요구한다.
 
 ![UiPath Orchestrator 시스템 요구사항](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/%EC%BA%A1%EC%B2%98.PNG?raw=true)
-
+<br>
 
 1. IIS 환경 설정
 
@@ -50,7 +56,7 @@ background: 'public/image/title/rpa_background.jpg'
 
    - https://www.microsoft.com/en-us/download/details.aspx?id=47337
 
-- 아직 설정이 더 남았다. 필요한 IIS Module이 다를 수 있으니 자신의 에러 메세지를 확인하여 설치하도록 하자.
+   - 아직 설정이 더 남았다. 필요한 IIS Module이 다를 수 있으니 자신의 에러 메세지를 확인하여 설치하도록 하자.
 
 ![캡처3](C:\Users\ksc31\Desktop\설치error 정리\캡처3.PNG)
 
