@@ -30,11 +30,8 @@ github_username:  labft3231
 #theme: jekyll-theme-clean-blog
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 markdown: kramdown
-paginate: 5
-pagenate_path: "/posts/page:num"
 plugins:
   - jekyll-feed
-  - jekyll-pagenate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
