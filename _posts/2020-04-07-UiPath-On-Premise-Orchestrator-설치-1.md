@@ -7,53 +7,48 @@ author: labft3231
 background: 'public/image/title/rpa_background.jpg'
 ---
 
-### UiPath On-Premise Orchestrator 설치 시작
-
-앞서 webhook과정에서 알아봤던 On-premise Orchestrator를 설치해봤다.
+## UiPath On-Premise Orchestrator 설치 시작
 
 
-
-일단 On-premise Orchestrator의 특징에 대해서 알아봤다.
-
-업데이트 마다 바뀔 수 있기 때문에  아래의 링크에서 살펴보는게 좋을거 같다.
-
-https://docs.uipath.com/cloudplatform/docs/on-premises-vs-cloud-platform-orchestrator-features
+- 앞서 webhook 과정에서 스쳐지나갔던 On-premise Orchestrator를 설치 과정에 대해 정리해보았다.
 
 
+## 일단 On-premise Orchestrator의 특징에 대해서 알아봤다.
 
-큰 특징으로 봤을때 insights 사용이 가능하고 Elasticsearch도 사용가능하고 DB에 로그등을 저장할 수 있고 등의 특징을 가진거 같다.
+- 업데이트 마다 바뀔 수 있기 때문에 설명 대신에 아래의 링크를 첨부했다.
+
+ [on-premise 와 cloud 차이점](https://docs.uipath.com/cloudplatform/docs/on-premises-vs-cloud-platform-orchestrator-features)
+
+- 큰 특징으로 봤을때 insights 사용이 가능하고 Elasticsearch도 사용가능하고 DB에 로그등을 저장할 수 있고 등의 특징을 가진거 같다.
+
+------------------------------------------
+
+### 그럼 설치를 해보자.
+
+#### 다운로드
+
+- Orchestrator installer Download 링크(둘중에 맘에 드는걸로 다운로드 가능) [https://download.uipath.com/UiPathOrchestrator.msi](https://download.uipath.com/UiPathOrchestrator.msi)
+
+- 혹시 다운로드가 되지 않을경우나 exe 파일이 필요한 경우 UiPath 공식 홈페이지에서 Trial 버전(위에 것도 Trial 임)을 다운로드 받을 수 있다 [추천](https://www.uipath.com/start-trial)
 
 
+#### Orchestrator install을 시작하면 처음 IIS 환경을 설정해야한다. 
 
-그럼 설치를 해보자.
+- 처음 설치 시 IIS 설정을 요구한다.
 
+![UiPath Orchestrator 시스템 요구사항](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/%EC%BA%A1%EC%B2%98.PNG?raw=true)
 
-
-Orchestrator installer Download 링크(둘중에 맘에 드는걸로 다운로드 가능)
-
-https://mail.uipath.com/n0Xo07804D4G0TL01000bfa
-
-https://download.uipath.com/UiPathOrchestrator.msi
-
-
-
-Orchestrator install을 시작하면 처음 IIS 환경을 설정해야한다. 
-
-시스템 요구사항 
-
-![캡처](C:\Users\ksc31\Desktop\설치error 정리\캡처.PNG)
 
 1. IIS 환경 설정
 
    - 7.5 이상의 버전을 설치 하기 위해 아래의 링크를 참조
-
-     ​	https://docs.microsoft.com/en-us/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2
+      - https://docs.microsoft.com/en-us/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2
 
    - 위와 같이 설정하면 또 아래와 같이 IIS URL Rewrite Module 에러가 난다.
 
 ![캡처2](C:\Users\ksc31\Desktop\설치error 정리\캡처2.PNG)
 
-- ###### https://www.microsoft.com/en-us/download/details.aspx?id=47337
+   - https://www.microsoft.com/en-us/download/details.aspx?id=47337
 
 - 아직 설정이 더 남았다. 필요한 IIS Module이 다를 수 있으니 자신의 에러 메세지를 확인하여 설치하도록 하자.
 
