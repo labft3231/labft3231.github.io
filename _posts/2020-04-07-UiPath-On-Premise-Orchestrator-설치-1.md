@@ -4,7 +4,7 @@ title:  "UiPath On-Premise Orchestrator 설치-1"
 date:   2020-04-07 17:35:11 +0900
 categories: RPA update
 author: labft3231
-background: 'public/image/title/rpa_background.jpg'
+background: 'public/image/title/orchestrator_background.png'
 ---
 
 ### UiPath On-Premise Orchestrator 설치 시작

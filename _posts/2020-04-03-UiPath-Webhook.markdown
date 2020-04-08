@@ -4,7 +4,7 @@ title:  "UiPath Webhook"
 date:   2020-04-03 18:13:11 +0900
 categories: rpa update
 author: labft3231
-background: 'public/image/title/rpa_background.jpg'
+background: 'public/image/title/webhooks_background.png'
 ---
 
 ### UiPath Webhook.

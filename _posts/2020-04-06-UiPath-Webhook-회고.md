@@ -4,7 +4,7 @@ title:  "UiPath Webhook Auth 문제해결"
 date:   2020-04-06 19:10:11 +0900
 categories: RPA update
 author: labft3231
-background: 'public/image/title/rpa_background.jpg'
+background: 'public/image/title/webhooks_background.png'
 ---
 
 ### UiPath Webhook 회고
