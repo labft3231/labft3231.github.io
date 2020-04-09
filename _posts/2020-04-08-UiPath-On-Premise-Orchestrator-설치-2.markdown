@@ -78,19 +78,27 @@ Select a page의 Options에 들어가 Collection을 설정합니다. 한글 사�
 그럼 이제 데이터베이스와 유저를 만들고 데이터베이스를 만들어 유저 권한을 주는 작업까지 완료했네요 
 
 
+<br>
+<br>
 
 ### 이제 Windows Authentication 방식의 로그인을 변경해줘야합니다. 
 
 ![change login](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/db5.JPG?raw=true)
+
+<br>
+
 위와 같이 이동하여 *SQL Server and Window Authentication mode*를 선택하고 OK
+
 ![change login2](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/db6.JPG?raw=true)
 
-
+<br>
+<br>
 
 ## Mssql 서버를 재실행
 설정이 끝났습니다. 적용하려면 Mssql 서버를 재실행 해줘야 합니다.
 재실행 방법은 작업관리자 서비스에서 MSSQLSERVER를 찾아서 우클릭하여 다시시작해주시면 됩니다.
+
 ![reset mssql](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/db7.JPG?raw=true)
 
 
-서버가 다시 시작되면서 Auth 환경이 저장되고 Install 다음으로 넘어갈수 있습니다.
+##### 서버가 다시 시작되면서 Auth 환경이 저장되고 Install 다음으로 넘어갈수 있습니다.
