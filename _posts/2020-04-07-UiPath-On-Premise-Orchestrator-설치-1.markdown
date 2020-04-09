@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "UiPath On-Premise Orchestrator 설치-1"
+subtitle: "IIS 환경설정 / 인증서"
 date:   2020-04-07 17:35:11 +0900
-categories: RPA update
+categories: rpa update
 author: labft3231
 background: 'public/image/title/orchestrator_background.png'
 ---
@@ -50,7 +51,7 @@ background: 'public/image/title/orchestrator_background.png'
 
 ##### IIS 환경 설정
 
-   - 7.5 이상의 버전을 설치 하기 위해 아래의 링크를 참조
+   - 7.5 이상의 버전을 설치 하기 위해 아래의 링크를 참조해주세요
       - <https://docs.microsoft.com/en-us/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2>
 
    - 위와 같이 설정하면 또 아래와 같이 IIS URL Rewrite Module 에러가 납니다.
@@ -67,7 +68,7 @@ background: 'public/image/title/orchestrator_background.png'
 
 
 
-   - 설치가 완료되면 드디러 다음화면으로 넘어갈 수 있다. 
+   > 설치가 완료되면 드디러 다음화면으로 넘어갈 수 있습니다. 
 
       ![Orchestrator install page](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/%EC%BA%A1%EC%B2%985.PNG?raw=true)
 
@@ -88,7 +89,7 @@ background: 'public/image/title/orchestrator_background.png'
 
    ![IIS3](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/%EC%BA%A1%EC%B2%988.PNG?raw=true)
 
-- 성명 복사 해서 넣고 Next
+> 성명 복사 해서 넣고 Next
 
 <br>
 

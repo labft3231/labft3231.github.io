@@ -2,7 +2,7 @@
 layout: post
 title:  "UiPath Webhook Auth 문제해결"
 date:   2020-04-06 19:10:11 +0900
-categories: RPA update
+categories: rpa update
 author: labft3231
 background: 'public/image/title/webhooks_background.png'
 ---
@@ -42,7 +42,7 @@ URL을 통해서 또한 인자와 리턴값 모두 달랐다.
 
 이렇게 삽질을 하는 와중에 좋은 사이트를 찾았다. 
 
-https://postman.uipath.rocks/?version=latest
+<https://postman.uipath.rocks/?version=latest>
 
 해당 사이트는 언어별로 설정을 변경하여 원하는 환경에서 테스트 및 활용이 가능하게끔 되어있다.
 

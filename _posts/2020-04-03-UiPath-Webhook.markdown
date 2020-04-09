@@ -29,17 +29,17 @@ background: 'public/image/title/webhooks_background.png'
    - 소스를 보고 rest swagger를 통해 필요한 url과 인자를 확인한 결과 처음 활성화를 위해서 다음 인자를 넣어야함
 
      [POST] /api/Account/Authenticate 에서 아래의 정보를 보냄
-
+```json
      {
        "tenancyName": "",
        "usernameOrEmailAddress": "",
        "password": ""
      }
-
+```
      
 
    - 위의 조건에 해당된다고 생각하는 인자들을 설정해봤지만 아래와 같은 에러뜸
-
+```json
      {
 
      ​	"message":"Invalid credentials, failed to login.",
@@ -49,7 +49,7 @@ background: 'public/image/title/webhooks_background.png'
      ​	"resourceIds":null
 
      }
-
+```
    - request하는 인자가 잘못되었다고 판단하여 다양한 인자를 바꿔가며 줘밨지만 실행되지 않았음
 
    - 구글링 한 결과 별로 정보가 없었지만 온프레미스 형태여야한다는 말이 있음

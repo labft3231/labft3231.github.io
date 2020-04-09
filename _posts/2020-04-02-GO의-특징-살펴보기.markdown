@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "GO의 특징 살펴보기"
+subtitle: "go lang"
 date:   2020-04-02 15:07:11 +0900
 categories: golang update
 author: labft3231
@@ -14,7 +15,7 @@ background: 'public/image/title/go_background.jpg'
 
    - go 설치시 기본 경로는 C:\go\bin 으로 설정되어 있으며 처음 시작할때 경로를 바꾸는게 좋다
    - go 같은 경우 bin안에 다양한 패키지가 설치되고 workspace 또한 bin안에 설정 된다. 경로를 바꾸어서 나중에 프로젝트가 많아졌을때 패키지가 꼬이는걸 방지할 수 있다.
-   - python 같은 경우엔 virtual env를 통해서 프로젝트마다 패키지를 다르게 설정이 가능한데 go는 환경변수에 GOPATH와 GOBIN을 설정해줘야한다.
+   - python 같은 경우엔 virtual env를 통해서 프로젝트마다 패키지를 다르게 설정이 가능한데 go는 환경변수에 *GOPATH와 GOBIN*을 설정해줘야한다.
 
    
 
