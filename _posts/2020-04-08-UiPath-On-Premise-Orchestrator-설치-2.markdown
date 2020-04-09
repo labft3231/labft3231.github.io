@@ -1,55 +1,68 @@
 ---
 layout: post
 title:  "UiPath On-Premise Orchestrator 설치-2"
-subtitle: "Database 설정"
+subtitle: "Database 설정" 
 date:   2020-04-08 22:43:55 +0900
 categories: rpa update
 author: labft3231
 background: 'public/image/title/orchestrator_background.png'
 ---
 
-### Mssql 설치
+<br>
 
-아래의 링크에서 *Expresss* 설치 
+## Mssql 설치
+사진 하단 첨부된 link에서 *Expresss* 설치 
+![mssql Express](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/mssql.JPG?raw=true)
 <https://www.microsoft.com/ko-kr/sql-server/sql-server-downloads>
 
+인스턴스 이름을 MSSQLSERVER next Specifiy  SQL Server administrators
 
-인스턴스 이름을 MSSQLSERVER / Specifiy  SQL Server administrators
+<br>
+<br>
 
-
+## SSMS 설치
 설치가 완료되었다면 이제 Mysql의 workbench와 같은 Mssql의 *SSMS* 를 설치를 시작합니다.
 
 서버를 설치한 후 나오는 SSMS 설치하기 버튼을 누르거나 
 
-<https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15>
+<https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15> 에서 설치 가능합니다.
 
-링크에서 설치가 가능합니다.
+<br>
+<br>
+
+## DB 설정
+Mssql과 SSMS를 설치한 후에는 Orchestrator에서 사용할 `데이터베이스`와 이를 사용할 `user`를 생성해줘야합니다.
+
+데이터베이스와 User를 생성하기 위해 SSMS을 실행합니다. 
+
+![mssql login](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/db1.jpg?raw=true)
 
 
-### DB 설정
-Mssql과 SSMS를 설치한 후에는 Orchestrator에서 사용할 *데이터베이스*와 이를 사용할 *user*를 생성해줘야합니다.
+>> 현재 Authentication이 windows Auth로 설정이 되어있습니다. 아직 login할 user가 없기 때문에 이렇게 로그인합니다. 
+>> server name은 그냥 기본값으로 로그인 하면 되겠습니다. 
+>> 현재 SSMS 접속은 windows auth으로 했지만 windows auth 정보는 가변적이고 Orchestrator에서의 제한된 접근(보안)을 위해 User를 따로 만들어야합니다.
 
-현재 SSMS 접속은 windows auth으로 했지만 windows auth 정보는 가변적이고 제한된 접근(보안)을 위해 User를 따로 만들어야합니다.
+<br>
+<br>
 
-> User 만들기
+## User 만들기
 
 
 좌측 Object Exploer에서 Security 항목의 logins에서 우클릭 하여 New Login을 생성할 수 있습니다.
 
-체크된 것들을 설정합니다. 
+![create user](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/db3.JPG?raw=true)
 
-SQL Server authentucation을 선택하고 Login name과 비밀번호를 지정합니다.
-
-체크박스에서 다음 로그인때 비밀번호 변경은 해제합니다.
-
-그리고 OK 버튼 클릭
+>> 체크된 것들을 설정합니다. 
+>> SQL Server authentucation을 선택하고 Login name과 비밀번호를 지정합니다.
+>> 체크박스에서 다음 로그인때 비밀번호 변경은 해제합니다. 그리고 OK 버튼 클릭
 
 
-그럼 일단 유저만들기는 성공했네요
+그럼 유저만들기는 성공했네요 
 
+<br>
+<br>
 
-
-> 다음은 데이터베이스 생성
+## 데이터베이스 생성
 
 테이블 설정은 위에서 설정한 Security 위에 Database에서 우클릭 후 New Databases로 생성가능합니다.
 
