@@ -32,7 +32,10 @@ remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate2
 
+paginate: 3
+paginate_path: "/page:num/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
