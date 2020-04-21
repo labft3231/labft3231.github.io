@@ -7,7 +7,7 @@ categories: rpa update
 author: labft3231
 header-img: 'public/image/title/processmining_background.png'
 header-mask: true
-hidden: true
+hidden: False
 tags:
     - RPA
     - UiPath
