@@ -39,7 +39,7 @@ Insights 설치는 추후에 다루도록 하겠습니다.
 
 ## Elastic search / Kibana 설치
 
-먼저 Elastic search입니다. 
+먼저 `Elastic search`입니다. 
 
 ```
 Elasticsearch는 텍스트, 숫자, 위치 기반 정보, 정형 및 비정형 데이터 등 모든 유형의 데이터를 위한 분산형 오픈 소스 검색 및 분석 엔진입니다. 
@@ -72,7 +72,7 @@ elastic search 실행시 java가 필요합니다. 다운 받은 elastic에 이�
 
 <br>
 
-이제 Kibana입니다. 
+이제 `Kibana`입니다. 
  
 ```
 Kibana는 Elastic Stack을 기반으로 구축된 오픈 소스 프론트엔드 애플리케이션으로, Elasticsearch에서 색인된 데이터를 검색하고 시각화하는 기능을 제공합니다. 

@@ -12,6 +12,7 @@ tags:
     - RPA
     - UiPath
     - Process Mining
+    - Webinar
 ---
 
 <br>
@@ -24,7 +25,7 @@ process gold를 인수하면서 RPA가 프로세스 혁신을 어떻게 이룰�
 
 있도록 구성
 
-공식적인 이름은 uipath process mining
+공식적인 이름은 `uipath process mining`
 
 국내 기업은 PI를 통해 어떻게 업무가 흘러가는지에 대해서 인사이트 분석
 

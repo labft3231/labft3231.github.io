@@ -59,7 +59,7 @@ setup파일을 통해 설치하면 CertifyTheWeb 프로그램이 생성된다.
 
 
 ssl을 받았으면 
-> 이제 인증서를 활용하면 http 연결에서 -> https 이 가능합니다.
+> 이제 인증서를 활용하면 `http` 연결에서 -> `https` 이 가능합니다.
 
 
 Domain name service를 통해서 발급받은 도메인과 ip오 
