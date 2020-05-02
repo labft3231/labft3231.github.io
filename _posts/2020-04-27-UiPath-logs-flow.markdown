@@ -10,12 +10,12 @@ hidden: false
 header-mask: true
 published : true
 tags:
-    # - RPA
-    # - UiPath
-    # - Orchestrator
-    # - Kibana
-    # - Meatric Beat
-    # - Elastic Search
+    - RPA
+    - UiPath
+    - Orchestrator
+    - Kibana
+    - Meatric Beat
+    - Elastic Search
 ---
 
 On-premise 형태의 Orchestrator 서버 환경을 구축하였다면 이제 cloud환경보다 더 다양한 것을 해볼 수 있습니다.
