@@ -31,7 +31,8 @@ UiPath에서도 다양한 excel 처리 기능이 있지만 방대한 데이터�
 
 ### webopen.xaml (uipath python script 실행)
 
-그림1
+![python_activity1](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/pandas0.JPG?raw=true)
+
 
 
 > 단순히 실행을 위해서 python버전 정보와 경로등을 지정해야함 이것을 python scope에서 함
@@ -44,7 +45,7 @@ UiPath에서도 다양한 excel 처리 기능이 있지만 방대한 데이터�
 ### main.xaml (uipath python method 실행)
 
 
-그림2
+![python_activity2](https://github.com/labft3231/labft3231.github.io/blob/master/public/posts/pandas1.JPG?raw=true)
 
 
 > Python Scope : 설치된 python 정보를 읽음(python설치경로, os버전, python version)
@@ -76,4 +77,4 @@ python에서 excel로 저장하고 excel파일을 uipath에서 읽어도 상관�
 (해당 프로젝트에서는 전자의 방법으로 했음)
 
 
-[Github](https://github.com/labft3231/pythonScript "🐍 Python Scripts AND Pandas Basic<br>UiPath에서 Pandas를 활용한 excel 데이터 조작입니다.")
+(https://github.com/labft3231/pythonScript "🐍 Python Scripts AND Pandas Basic / UiPath에서 Pandas를 활용한 excel 데이터 조작입니다.")
