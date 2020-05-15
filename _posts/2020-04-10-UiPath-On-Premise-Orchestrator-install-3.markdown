@@ -2,7 +2,7 @@
 layout: post
 title:  "⛵ UiPath On-Premise Orchestrator 설치-3"
 subtitle: "Orchestrator 설치 / 라이센스 적용" 
-date:   2020-04-13 22:52:12 +0900
+date:   2020-04-10 22:52:12 +0900
 categories: rpa update
 author: labft3231
 header-img: 'public/image/title/orchestrator_background.png'

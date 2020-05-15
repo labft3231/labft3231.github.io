@@ -43,9 +43,8 @@ tags:
 
 #### 다운로드
 
-- Orchestrator installer Download 링크(아래 추천 링크와 둘중에 맘에 드는걸로 다운로드 가능)  <https://download.uipath.com/UiPathOrchestrator.msi>
-
-- 혹시 다운로드가 되지 않을경우나 exe 파일이 필요한 경우 UiPath 공식 홈페이지에서 Trial 버전(위에 것도 Trial 임)을 다운로드 받을 수 있다 <https://www.uipath.com/start-trial>
+- UiPath 공식 홈페이지에서 Trial 버전을 다운로드 받을 수 있다 <https://www.uipath.com/start-trial>
+- cloud.uipath.com의 리소스 센터에서도 다운로드가 가능하다. <https://cloud.uipath.com>
 
 <br>
 <br>
