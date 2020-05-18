@@ -9,6 +9,7 @@ background: 'public/image/title/python_background.png'
 header-img: "img/post-bg-apple-event-2015.jpg"
 header-mask: true
 hidden: false
+published : false
 tags:
     - Python
     - Pandas

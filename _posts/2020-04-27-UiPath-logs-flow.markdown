@@ -8,6 +8,7 @@ author: labft3231
 header-img: "public/image/title/orchestrator_background.png"
 hidden: false
 header-mask: true
+published : false
 tags:
     # - RPA
     # - UiPath
