@@ -4,19 +4,26 @@ title:  "🌱 UiPath Webhook"
 date:   2020-04-03 18:13:11 +0900
 categories: rpa update
 author: labft3231
-background: 'public/image/title/webhooks_background.png'
+header-img: 'public/image/title/webhooks_background.png'
+header-mask: true
+tags:
+    - RPA
+    - UiPath
+    - Orchestrator
+    - Webhook
 ---
 
 ### UiPath Webhook.
 
-
+<br>
 
 1. webhook의 알아보고 싶은 계기
 
    - log에 따른 트리거 활용
    - 로그를 기록 및 프로젝트 관리
 
-   
+   <br>
+   <br>
 
 2. 삽질 과정 
 
@@ -66,6 +73,9 @@ background: 'public/image/title/webhooks_background.png'
 
    
 
+<br>
+<br>
+
 3. 예상 
 
    - 내가 인자 잘못 입력했거나, 온프레미스 환경에서 동작이거나..
@@ -74,7 +84,9 @@ background: 'public/image/title/webhooks_background.png'
 
    - uipath 온프레미스는 아마 studio에 라이센스 등록하고 cloud.uipath.com에 로봇을 등록하면서 얻은? 인자를 활용
 
-   
+
+<br>
+<br>
 
 4. 결론
 
