@@ -8,7 +8,7 @@ author: labft3231
 header-img: "public/image/title/actioncenter_background.jpg"
 header-mask: true
 hidden: false
-published : true
+published : false
 tags:
     - Webinar
     - RobotJS
