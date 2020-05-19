@@ -2,7 +2,7 @@
 layout: post
 title:  "🐫 Process Mining"
 subtitle: "UiPath Process Mining" 
-date:   2020-04-08 22:43:55 +0900
+date:   2020-04-17 21:38:55 +0900
 categories: rpa update
 author: labft3231
 header-img: 'public/image/title/processmining_background.jpg'

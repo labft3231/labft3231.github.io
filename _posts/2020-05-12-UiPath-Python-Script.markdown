@@ -77,4 +77,4 @@ python에서 excel로 저장하고 excel파일을 uipath에서 읽어도 상관�
 (해당 프로젝트에서는 전자의 방법으로 했음)
 
 
-(https://github.com/labft3231/pythonScript "🐍 Python Scripts AND Pandas Basic / UiPath에서 Pandas를 활용한 excel 데이터 조작입니다.")
+<https://github.com/labft3231/pythonScript> 👈 "🐍 Python Scripts AND Pandas Basic / UiPath에서 Pandas를 활용한 excel 데이터 조작입니다."
