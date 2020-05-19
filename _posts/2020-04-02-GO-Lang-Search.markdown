@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🐣 GO의 특징 살펴보기"
+title:  "🏃 GO의 특징 살펴보기"
 subtitle: "go lang"
 date:   2020-04-02 15:07:11 +0900
 categories: golang update
