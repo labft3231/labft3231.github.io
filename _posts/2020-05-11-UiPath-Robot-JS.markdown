@@ -10,7 +10,6 @@ header-mask: true
 hidden: false
 published : false
 tags:
-    - Webinar
     - RobotJS
     - RPA
     - UiPath
