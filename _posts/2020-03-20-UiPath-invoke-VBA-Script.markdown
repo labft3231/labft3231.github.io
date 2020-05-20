@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "🚀 UiPath invoke VBA Script 2way(Excel Macro, Invoke VBA)"
-subtitle: "Excel 데이터 변경"
+subtitle: "UiPath Excel 데이터 변경"
 date:   2020-03-20 18:05:11 +0900
 categories: rpa update
 author: labft3231

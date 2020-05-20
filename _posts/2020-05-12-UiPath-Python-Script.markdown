@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "🐍 Python Scripts AND Pandas Basic"
-subtitle: "호출, parameter전달, dataframe2datatable" 
+subtitle: "UiPath python script 호출, parameter전달, dataframe2datatable" 
 date:   2020-05-12 21:03:54 +0900
 categories: rpa update
 author: labft3231
