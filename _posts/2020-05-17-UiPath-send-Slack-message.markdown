@@ -5,7 +5,7 @@ subtitle: "RPA 자동화 도구로 슬랙 메세지 보내기"
 date:   2020-05-17 22:35:57 +0900
 categories: rpa update
 author: labft3231
-header-img: "public/image/title/automationhub_background.jpg"
+header-img: "public/image/title/slack_background.jpg"
 header-mask: true
 hidden: false
 published : true
