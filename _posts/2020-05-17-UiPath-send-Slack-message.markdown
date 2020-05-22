@@ -54,6 +54,9 @@ RPA 도구인 UiPath에서 slack의 메세지를 받는다거나 채널을 만�
 ![slack activity]({{ site.url }}/public/posts/slack.JPG?raw=true)
 
 
+> Studio 실행시 등록한 slack에 메세지가 전송됩니다. 포스팅에선 slackbot에서 보내기 때문에 답변도 받을 수 있었습니다. (get messages)
+
+
 ### 결론
 여기서는 간단하게 연동에 목적이 맞춰져 있기 때문에 프로젝트 개발 부분이 짧지만 
 앞써 말했듯 채널생성 초대등 다양하게 활용가능합니다.
