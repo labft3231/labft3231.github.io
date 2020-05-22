@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "⛵ UiPath On-Premise Orchestrator 설치-3"
+title:  "⛵ UiPath On-Premise Orchestrator 서버 설치-3"
 subtitle: "Orchestrator 설치 / 라이센스 적용" 
 date:   2020-04-10 22:52:12 +0900
 categories: rpa update

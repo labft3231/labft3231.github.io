@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🐫 Process Mining"
+title:  "🐫 Process Mining(웨비나)"
 subtitle: "UiPath Process Mining" 
 date:   2020-04-17 21:38:55 +0900
 categories: rpa update

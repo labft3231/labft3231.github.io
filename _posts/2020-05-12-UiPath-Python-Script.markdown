@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🐍 Python Scripts AND Pandas Basic"
+title:  "🐍 Excel RPA 작업을 위한 Python Scripts 와 Pandas"
 subtitle: "UiPath python script 호출, parameter전달, dataframe2datatable" 
 date:   2020-05-12 21:03:54 +0900
 categories: rpa update
@@ -21,6 +21,7 @@ tags:
 
 사무업에 있어서 excel은 다양한 분야에서 활용되고 있고, 사무 자동화를 위한 RPA에서도 excel이 많이 사용됩니다.
 UiPath에서도 다양한 excel 처리 기능이 있지만 방대한 데이터를 빠르게 처리해줄 수 있는 `Pandas`를 활용해보았습니다. 
+또 python으로 웹 crawling등의 다양한 작업이 가능하기 때문에 script 적용 시 큰 힘을 낼수 있을 것입니다.
 
 해당 포스팅의 단계는 3단계로 나누어집니다.
 1. python 스크립트 실행

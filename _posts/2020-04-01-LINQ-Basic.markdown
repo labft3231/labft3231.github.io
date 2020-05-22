@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🐣 LINQ Basic"
+title:  "🐣 LINQ로 RPA datatable을 쿼리로 필터링 Basic"
 subtitle: "LINQ로 data를 빠르게 필터링하자"
 date:   2020-04-01 14:07:11 +0900
 categories: rpa update

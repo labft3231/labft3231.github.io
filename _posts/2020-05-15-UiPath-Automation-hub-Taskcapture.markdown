@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🐜 UiPath Automation hub & Task Capture 웨비나"
+title:  "🐜 UiPath의 Automation hub & Task Capture 는 어떤 것인가?(웨비나)"
 subtitle: "uipath 웨비나" 
 date:   2020-05-15 20:17:23 +0900
 categories: rpa update

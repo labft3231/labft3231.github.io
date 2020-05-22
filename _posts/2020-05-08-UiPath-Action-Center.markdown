@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "👊 Action Center(human in the loop)"
+title:  "👊 자동화 RPA에서 중요한건 사람이 처리하고 싶다면 Action Center(웨비나)"
 subtitle: "robot, studio, orchestrator 를 사용한 Action Center" 
 date:   2020-05-08 19:50:37 +0900
 categories: rpa update
@@ -19,9 +19,13 @@ tags:
 
 ### UiPath 액션센터(human in the loop) 
 
+액션센터는 사람이 로봇 프로세스에 사람이 승인하는 부분을 만들수 있습니다. 
+이게 왜 필요하냐면..
+결제와 같이 중요한 프로세스를 로봇 모두 처리한다면 의도치 않게 일이 잘못될 수 있기 때문입니다.
+액션센터를 통해 사람이 처리할 것을 나눌 수 있죠.
 원래의 이름은 human in the loop으로 쓰이다가 `Action center`로 변경되었습니다.
-
 액션센터는 robot, studio, orchestrator 이 세가지가 한 박자가 되어서 사용된다고 합니다.
+
 
 
 
