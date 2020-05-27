@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "🤖 UiPath Robot JS"
-subtitle: "Robot JS 기본" 
-date:   2020-05-11 23:46:31 +0900
+title:  "🔮 UiPath 동적으로 Datatable 생성하여 환율 구하기"
+subtitle: "UiPath Dynamic Datatable" 
+date:   2020-05-27 21:27:12 +0900
 categories: rpa update
 author: labft3231
-header-img: "public/image/title/actioncenter_background.jpg"
+header-img: "public/image/title/exchangeRate_background.jpg"
 header-mask: true
 hidden: false
-published : false
+published : true
 tags:
-    - RobotJS
     - RPA
     - UiPath
 ---
+
 
 ## UiPath Dynamic Datatable 
 
@@ -21,10 +21,10 @@ tags:
 
 > 🔮 본 글은 Datatable을 동적으로 생성하는 프로젝트에 대한 리뷰와 설명입니다.
 >
+> 실행 시 로봇이 입력한 금액과 입력한 나라의 환율을 구해서 Excel로 저장해줍니다.
 > Data/Input/inputData.xlsx 경로에서 KRW 기준에서 원하는 금액과 원하는 나라 환율을 계산해줍니다.
 >
 > 기준 나라 변경을 원할 경우 URL 변경해주면 A1 셀과 url을 변경해주면 됩니다. 👍
->
 > (아니면 환율 바꾸는 부분을 추가해줘도 됩니다.)
 
 
@@ -61,3 +61,6 @@ Excel에서 사용할 데이터를 추출합니다. (Row : 환율 검색할 화�
 
 Excel에 생성된 DataTable 값 입력
 
+
+
+<https://github.com/labft3231/DynamicDatatable> 👈 "🔮 UiPath 동적으로 Datatable 생성하여 환율구하기"

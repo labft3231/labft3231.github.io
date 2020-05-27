@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🎶 마이크로소프트 Softomotive 인수 소식을 들었습니다."
+title:  "🎶 마이크로소프트에서 Softomotive를 인수했다네요"
 subtitle: "Microsoft accelerate softomotive" 
 date:   2020-05-25 23:45:50 +0900
 categories: rpa update
@@ -11,7 +11,7 @@ hidden: false
 published : true
 tags:
     - RPA
-    - UiPath
+    - Softomotive
 ---
 
 최근 Microsoft의 행보가 기대됩니다.
