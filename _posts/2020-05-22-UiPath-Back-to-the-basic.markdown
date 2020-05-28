@@ -22,10 +22,11 @@ UiPath 에서는 기존 프로그래밍 언어들과 다르게 초기화 및 사
 > 계속 수정할 계획입니다. 
 
 
+<br>
 
 ## UiPath Data Manipulation
 
-
+<br>
 
 ### String
 
@@ -45,11 +46,11 @@ Split : VarName.Split("|"c)(index)
 Substring : VarName1.Substring(startIndex, length)
 ```
 
-
+<br>
 
 ---
 
-
+<br>
 
 ### List
 
@@ -87,11 +88,11 @@ Enumerable.Concat(SpainCities.AsEnumerable, UKCities.AsEnumerable).ToList
 StrConv(item, VbStrConv.ProperCase)
 ```
 
-
+<br>
 
 ---
 
-
+<br>
 
 ### Dictionaries
 
@@ -131,11 +132,11 @@ Add to Collection, RemoveFromCollection 액티비티로 간단하게 사용 가�
 - VarName.ContainsKey(Key) – key가 포함되어있는지 확인(bolean형으로 return)
 - VarName.TryGetValue(Key, Value) – key value확인
 
-
+<br>
 
 ---
 
-
+<br>
 
 ### DataRow 동적추가
 
@@ -161,11 +162,11 @@ TargetObject : System.Collections.Generic.List <System.String>
 TargetType : (null)
 ```
 
-
+<br>
 
 ---
 
-
+<br>
 
 ### DataTable 
 
@@ -195,11 +196,11 @@ Join DataTables : JoinType 속성에 지정된 Join 규칙에 따라 서로 공�
 
 Merge DataTable : 지정된 DataTable을 현재 DataTable과 병합하여 변경 내용을 보존할지 여부와 현재 DataTable에서 누락 된 스키마를 처리하는 방법을 나타냅니다.
 
-
+<br>
 
 ---
 
-
+<br>
 
 ### 기타
 
