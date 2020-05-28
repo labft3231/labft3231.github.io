@@ -8,7 +8,7 @@ author: labft3231
 header-img: "public/image/title/backToTheBasic_background.jpg"
 header-mask: true
 hidden: false
-published : false
+published : true
 tags:
     - RPA
     - UiPath
