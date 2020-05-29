@@ -25,7 +25,9 @@ layout: default
                     {% include multilingual-sel.html %}
                 {% endif %}
 
-				{{ content }}
+                {{ content }}
+                
+                {% include buy-me-a-coffee.html %}
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
@@ -116,7 +118,6 @@ layout: default
 </script>
 <!-- 网易云跟帖JS代码 end -->
 {% endif %}
-
 
 {% if site.disqus_username %}
 

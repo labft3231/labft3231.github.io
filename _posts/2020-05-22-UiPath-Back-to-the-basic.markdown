@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "🤒 UiPath Data 조작하기"
-subtitle: "Back to the basic v1.0.1🚐" 
+subtitle: "Back to the basic v1.0.3🚐" 
 date:   2020-05-22 22:15:15 +0900
 categories: rpa update
 author: labft3231
@@ -61,7 +61,12 @@ Substring : VarName1.Substring(startIndex, length)
 ##### 초기화
 
 New List (Of String)
+my_List = new List(of string)(new string(){"value1","value2"})
 
+Initialize Array
+my_Array = new string(){"value1","value2"}
+Array 첫번째 값
+my_First = my_Array.first
 
 
 ##### List 요소 추가
@@ -220,3 +225,10 @@ Workbook은 Excel이 설치되지 않아도 실행이 가능하고 Excel은 Exce
 번외로..
 Workbook은 DRM이 걸린 파일이 열리지도 않지만 DRM이 걸리지도 않아
 Excel은 DRM 파일이 열리는데 저장하면 DRM이 걸림
+
+##### Array 건너뛰기( index 값으로 지우는게 있을텐데 못찾았음)
+arrayData.Skip(1).ToArray()
+
+
+##### Datatime 포맷 정해주기 추가
+System.DateTime.Now.ToString("yyyy_MM_dd")
