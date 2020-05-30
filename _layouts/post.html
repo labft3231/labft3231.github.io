@@ -51,17 +51,17 @@ layout: default
                 <hr style="visibility: hidden;">
 
                 {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
+                <!-- disqus start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
-                <!-- disqus 评论框 end -->
+                <!-- disqus end -->
                 {% endif %}
 
                 {% if site.netease_comment %}
-                <!-- 网易云跟帖 评论框 start -->
+                <!-- NetEase Cloud end start -->
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-                <!-- 网易云跟帖 评论框 end -->
+                <!-- NetEase Cloud end -->
                 {% endif %}
             </div>  
 
@@ -104,7 +104,7 @@ layout: default
 {% endif %}
 
 {% if site.netease_comment %}
-<!-- 网易云跟帖JS代码 start -->
+<!-- Netease Cloud post JS start -->
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <script>
   var cloudTieConfig = {
@@ -116,7 +116,7 @@ layout: default
   var yunManualLoad = true;
   Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
 </script>
-<!-- 网易云跟帖JS代码 end -->
+<!-- Netease Cloud post JS end -->
 {% endif %}
 
 {% if site.disqus_username %}
