@@ -11,7 +11,7 @@ hidden: false
 published : true
 tags:
     - RPA
-    - UiPath
+    - Softomotive
 ---
 
 최근 Microsoft의 행보가 기대됩니다.
