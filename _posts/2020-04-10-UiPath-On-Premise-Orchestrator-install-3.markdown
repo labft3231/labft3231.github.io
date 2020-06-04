@@ -83,7 +83,7 @@ Elastic Stack(이전에는 Elasticsearch, Logstash, Kibana의 머리글자를 �
 
 Kibana는 elastic에서 색인화한 데이터를 검색하며 시각화 기능을 제공하네요
  
-https://www.elastic.co/kr/downloads/kibana Kibana는 해당 경로에서 다운로드 가능합니다.
+<!-- https://www.elastic.co/kr/downloads/kibana Kibana는 해당 경로에서 다운로드 가능합니다. -->
 
 Kibana도 압축을 풀어서 C드라이브의 elastic파일로 옮겨줍니다. 
 

@@ -82,4 +82,4 @@ Automation hub와 Task Capture는 RPA 프로세스의 기획단계에 해당합�
 > Demo로 automation hub를 사용해봤지만 프로젝트에 적용해보진 못해서 정확히 얼마나 사용될진 모르겠네요. 
 > 프로젝트 개발뿐만 아니라 프로젝트 진행에 모든 프로세스를 UiPath가 해결하겠다는 의지가 보이네요. 
 
-<https://www.uipath.com/product/automation-hub> 👈 Automation hub Demo 신청페이지
+<!-- <https://www.uipath.com/product/automation-hub> 👈 Automation hub Demo 신청페이지 -->

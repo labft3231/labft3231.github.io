@@ -30,7 +30,7 @@ tags:
 
 서버를 설치한 후 나오는 SSMS 설치하기 버튼을 누르거나 
 
-<https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15> 에서 설치 가능합니다.
+<!-- <https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15> 에서 설치 가능합니다. -->
 
 <br>
 <br>

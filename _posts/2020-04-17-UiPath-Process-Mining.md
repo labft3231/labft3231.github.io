@@ -124,7 +124,7 @@ process gold를 인수하면서 RPA가 프로세스 혁신을 어떻게 이룰�
 
 - 프로세스 액티비티 수행시간 판단 가능
 
-> https://bit.ly/ProcessGoldUiPathDemo (Demo 사이트)
+<!-- > https://bit.ly/ProcessGoldUiPathDemo (Demo 사이트) -->
 
 
 

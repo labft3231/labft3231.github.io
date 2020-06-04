@@ -43,8 +43,8 @@ tags:
 
 #### 다운로드
 
-- UiPath 공식 홈페이지에서 Trial 버전을 다운로드 받을 수 있다 <https://www.uipath.com/start-trial>
-- cloud.uipath.com의 리소스 센터에서도 다운로드가 가능하다. <https://cloud.uipath.com>
+<!-- - UiPath 공식 홈페이지에서 Trial 버전을 다운로드 받을 수 있다 <https://www.uipath.com/start-trial>
+- cloud.uipath.com의 리소스 센터에서도 다운로드가 가능하다. <https://cloud.uipath.com> -->
 
 <br>
 <br>
@@ -58,7 +58,7 @@ tags:
 ##### IIS 환경 설정
 
    - 7.5 이상의 버전을 설치 하기 위해 아래의 링크를 참조해주세요
-      - <https://docs.microsoft.com/en-us/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2>
+      <!-- - <https://docs.microsoft.com/en-us/iis/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2> -->
 
    - 위와 같이 설정하면 또 아래와 같이 IIS URL Rewrite Module 에러가 납니다.
 
