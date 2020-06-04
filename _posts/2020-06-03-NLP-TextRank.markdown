@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "🔮 자연어처리 NLP"
-subtitle: "자연어처리 NLP" 
+title:  "📝 자연어처리 NLP"
+subtitle: "자연어처리 학습하기" 
 date:   2020-06-03 23:10:02 +0900
 categories: nlp update
 author: labft3231
