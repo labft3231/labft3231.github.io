@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🎶 마이크로소프트에서 Softomotive를 인수했다네요"
+title:  "🎙️ 마이크로소프트에서 Softomotive를 인수했다네요"
 subtitle: "Microsoft accelerate softomotive" 
 date:   2020-05-25 23:45:50 +0900
 categories: rpa update
