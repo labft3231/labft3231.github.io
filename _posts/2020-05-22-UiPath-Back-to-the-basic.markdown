@@ -41,7 +41,10 @@ Join : String.Join("|", CollVarName1)
 
 Replace : VarName.Replace ("original", "replaced")
 
-Split : VarName.Split("|"c)(index)
+Split : VarName.Split("|"c)(index) 
+ex) Varname.Split({","}, System.StringSplitOptions.None)
+
+Trim : Trim(VarName)
 
 Substring : VarName1.Substring(startIndex, length)
 ```
