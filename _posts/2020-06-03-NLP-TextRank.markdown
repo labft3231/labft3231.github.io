@@ -62,7 +62,7 @@ tags:
 
    > 대표적인 알고리즘으로 머신 러닝 알고리즘인 텍스트랭크(TextRank)가 있음
 
-   <!-- 예시 : https://summariz3.herokuapp.com/ -->
+   예시 : https://summariz3.herokuapp.com/
 
 2. 추상적요약
 

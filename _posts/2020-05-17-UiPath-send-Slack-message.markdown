@@ -29,7 +29,7 @@ RPA 도구인 UiPath에서 slack의 메세지를 받는다거나 채널을 만�
 #### 사전 작업
 - 슬랙 workspace 로그인
 
-<!-- - 슬랙 app 생성 : https://api.slack.com/apps로 이동하여 create app -->
+- 슬랙 app 생성 : https://api.slack.com/apps로 이동하여 create app
 
 ![slack app 생성](https://files.readme.io/49c45e5-Slack_CreateApp_1.png)
 > `app name`과 `workspace`를 설정
@@ -64,4 +64,4 @@ RPA 도구인 UiPath에서 slack의 메세지를 받는다거나 채널을 만�
 또한 slack뿐 아니라 MS의 teams도 자동화가 가능합니다. 
 해당 부분에 대해 더 자세하게 알고 싶다면 아래 주소를 참조해주시면 되겠습니다.
 
-<!-- https://docs.uipath.com/integrations/docs/slack -->
+https://docs.uipath.com/integrations/docs/slack
