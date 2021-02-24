@@ -26,7 +26,7 @@ tags:
 
 https://www.freenom.com/en/index.html?lang=en여기서 무료로 발급 받을 수 있다네요! :smile:
 
-<!-- https://opentutorials.org/module/4092/24965 생활코딩 사이트에 자세한 설명이 있습니다. -->
+https://opentutorials.org/module/4092/24965 생활코딩 사이트에 자세한 설명이 있습니다.
 
 
 도메인을 발급 받았다면 내 서버 ip와 연결하여 내 서버 ip에 좀 더 편하게 접근할 수 있도록 DNS 레코드를 등록해줍니다.
@@ -41,7 +41,7 @@ ssl 내 주소가 안전하다는 것을 증명해주는 인증서이다.
 
 ssl를 만들기 위해서 다양한 프로그램이 있다 여기선 무료 인증서(let's encript)를 활용한다.
 
-<!-- <https://certifytheweb.com/> 에서 setup 파일을 다운로드 합니다. -->
+<https://certifytheweb.com/> 에서 setup 파일을 다운로드 합니다.
 
 setup파일을 통해 설치하면 CertifyTheWeb 프로그램이 생성된다. 
 해당 프로그램 실행 시 email을 입력하는 화면이 나오는데 이메일을 입력해준다. 
