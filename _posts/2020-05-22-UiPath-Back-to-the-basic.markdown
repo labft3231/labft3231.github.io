@@ -260,52 +260,52 @@ System.DateTime.Now.ToString("yyyy_MM_dd")
 DateTime.Now.AddMonths(-1).ToString("yyyy.MM.dd")
 
 
-### 현재 Directory (path) 가져오기
+##### 현재 Directory (path) 가져오기
 
 Directory.GetCurrentDirectory()
 
 
 
-### 정규표현식 찾은 값을 Array(Of String)으로 변경
+##### 정규표현식 찾은 값을 Array(Of String)으로 변경
 
 
 Matches Type : System.Collections.Generic.IEnumable<System.Text.RegularExpressions.Match>
 OfType(Of Match).Select(Function(m) m.Value.ToString).ToArray
 
 
-### 공백 문자처리 방법
+##### 공백 문자처리 방법
 
 "테스트" & vbLf & "입니다" Or "test"+ vbLf + "입니다"
 
 
-### 컬럼명 변경 
+##### 컬럼명 변경 
 
 datatableVar.Columns("oldColumnName").ColumnName = New column Name
 
 
-### 중복되지 않은 사항 찾기
+##### 중복되지 않은 사항 찾기
 
 List1.Except(List2)
 
-### 중복 사항 
+##### 중복 사항 
 
 List1.Intersect(List2)
 Distinct(), Union()
 
 
-### 유니코드 디코딩 (\u20)
+##### 유니코드 디코딩 (\u20)
 
 System.Text.RegularExpressions.Regex.Unescape(unicodeString)
 
 
-### Get Excel Row index
+##### Get Excel Row index
 
 Int value_row_index =yourdatatable.Rows.Indexof(row)
 
-### Get Folder Name
+##### Get Folder Name
 
 Directory.GetFiles(폴더명, "*.xls*", SearchOption.AllDirectories)
 
-### Datatable 중복제거
+##### Datatable 중복제거
 
 Datatable.DefaultView.Totable(true, list of column names)
